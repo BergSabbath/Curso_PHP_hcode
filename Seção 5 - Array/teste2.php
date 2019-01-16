@@ -11,7 +11,7 @@ array_push($pessoas,array(
     'idade'=>'15'
 ));
 
-echo json_encode($pessoas);//json_encode - transforma array em encode
+echo json_encode($pessoas);//json_encode - transforma array em (json) encode
 echo "<br>";
 
 
