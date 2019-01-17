@@ -9,7 +9,7 @@ class Documento{
 
     }
     public function setNumero($numero){
-        $resultado = Documento::validaCPF($numero);//os dois pontos é para acessa métdos estáticos
+        $resultado = Documento::validaCPF($numero);//os dois pontos é para acessar métodos estáticos
         
         if ($resultado === false){
 
