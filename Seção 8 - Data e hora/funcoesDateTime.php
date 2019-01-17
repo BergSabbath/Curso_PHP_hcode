@@ -1,5 +1,5 @@
 <?php
-//função date() e função time();
+//função date() e função time(); timestamp
 
 // echo date("d/m/Y", 1539023852);
 // // esta função nao é automática quando Locale, 
