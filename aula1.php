@@ -7,14 +7,17 @@
 <body>
     <div>
         <?php
-        //exit; //para a execução
-        //null // há ausencia de valores
-        //vazio eh quando realmente está vazio, mas ja foi iniciado 
+        //exit; //para a execução do codigo neste local
+        $null = NULL; //null // há ausencia de valores
+        $vazio = ""; //vazio eh quando realmente está vazio, mas ja foi iniciado 
+        //localhost/hcode/......./aula1.php?a=123
+        // $c = $_GET("a");
+        // var_dump($c);
         // toda informação que vier por $_GET ou $_POST sempre vai ser String
         // para forçar a conversão para outro tipo use-se $c = (int) $_GET("a");
         
-        // $ip = $_SERVER["SCRIPT_NAME"];
-        // echo $ip;
+        $ip = $_SERVER["SCRIPT_NAME"];
+        echo $ip;
 
         $nome= "Glaucio";
         function teste(){
@@ -23,6 +26,9 @@
             echo $nome;
         }
         teste();
+
+        unset($nome);// destroi a variavel
+        echo $nome;// aki a variavel não existe mais
 
         //escopo superglobal = em qlq escopo ela vai funcionar
 
@@ -39,6 +45,12 @@
         // $b = null;
         // $e = 10;
         // echo $a ?? $b ??$e;// se o valor "a" for null mostre b,se "b" tbm for nulo mostre "e"
+
+        $array = array("laranja", "abacaxi", "manga");
+        // echo $array[2];
+
+        $arquivo = fopen("aula1.php", "r");
+        var_dump($arquivo);
         ?>
     </div>
 </body>
