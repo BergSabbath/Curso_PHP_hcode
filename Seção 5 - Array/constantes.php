@@ -2,7 +2,7 @@
 
 define("SERVIDOR", "127.0.0.1");
 
-echo SERVIDOR;
+echo SERVIDOR;//Geralmente eh colocada com letras maiusculas.
 echo "<br>";
 echo "<br>";
 
@@ -12,7 +12,7 @@ echo "<br>";
 //para criar uma constante "define();"
 //dar um nome para a constante e um valor
 //ex: define("SERVIDOR","127.0.0.1");
-//Geralmente eh colocada com letras maiusculas.
+
 //não se pode colocar espaços
 //exibição: echo SERVIDOR; obs: sem o "$"
 
@@ -29,6 +29,8 @@ echo "<br>";
 echo "<br>";
 //exemplos de constantes pré-definidas
 echo PHP_VERSION; // serve para mostrar a versão do PHP rodando
+echo "<br>";
+echo "<br>";
 
 echo DIRECTORY_SEPARATOR;//Mostra a barra de diretorio "\" windows "/" no linux
 
