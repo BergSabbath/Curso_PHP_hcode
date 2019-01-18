@@ -31,6 +31,7 @@ $doc->setNumero("212323212-44");
 var_dump($doc->validar());
 echo "<br>";
 echo $doc->getNumero();
+echo "<br>";
 
 $rg = new CPF();
 $rg->setNumero("0080980982");
