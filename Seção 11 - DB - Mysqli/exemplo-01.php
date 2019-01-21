@@ -18,11 +18,11 @@ $stmt->bind_param("ss", $login, $pass);//(tipo de dado, 1ºdado, 2º dado)
 $login = "terrybogard";
 $pass = "12345";
 
-$stmt->execute();// não pode mandar direto para o DB, tem que enviar em forma de variavel
+// $stmt->execute();// não pode mandar direto para o DB, tem que enviar em forma de variavel
 
 //como o ambiente ja está preparado,, se quiser inserir outros dados basta
 //definir novos dados e dar execute novamente 
-$login = "andybogard";
+$login = "joehigashi";
 $pass = "12345";
 $stmt->execute();
 
