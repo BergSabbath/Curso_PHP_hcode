@@ -1,3 +1,4 @@
+<!-- conectando Mysql com PDO e PHP -->
 <?php
 
 $conn = new PDO("mysql:dbname=dbphp7;host=localhost","root","");//(tipo de banco:nome_do_banco,host(onde está), usuário, senha)

@@ -1,3 +1,6 @@
+<!-- Classe MySQLi e o PHP 7 -->
+<!-- inserindo dados -->
+
 <?php
 $conn = new mysqli("localhost","root","","dbphp7" );
 //(servidor,usuario, senha, nome_do_banco)
