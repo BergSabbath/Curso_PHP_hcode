@@ -39,13 +39,14 @@ require_once("config.php");
 //atualizando um usuario
 // $usuario = new Usuario();
 
-// $usuario->loadById(10);
-// $usuario->update("kimkaphwan","4569");
+// $usuario->loadById(11);
+// $usuario->update("ioriyagami","1478");
 
 // echo $usuario;
-$usuario = new Usuario();
 
-$usuario->loadById(11);
-$usuario->update("ioriyagami","1478");
+//apagando um usuário
+$usuario = new usuario();
+$usuario->loadById(13);
+$usuario->delete();
 
 echo $usuario;
