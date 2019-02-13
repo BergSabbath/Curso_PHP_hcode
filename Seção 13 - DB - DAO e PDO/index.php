@@ -7,25 +7,45 @@ require_once("config.php");
 // $user->loadById(2);
 // echo $user;
 
+
 //carrega uma lista de usuario
 //$lista = Usuario::getList();
 
 //echo json_encode($lista);
 
+
 //carrega uma lista de usuarios buscando pelo login
 // $search = Usuario::search("bogard");
 // echo json_encode($search);
+
 
 //carrega um usuario pegando login e senha
 // $usuario = new Usuario();
 // $usuario->login("andybogard","12345");
 // echo ($usuario);
 
-$aluno = new Usuario("May", "7896");
 
-// $aluno->setDeslogin("aluno");
-// $aluno->setDessenha("32145");
+//criando um novo usuario
+// $aluno = new Usuario("May", "7896");
 
-$aluno->insert();
+// // $aluno->setDeslogin("aluno");
+// // $aluno->setDessenha("32145");
 
-echo $aluno;
+// $aluno->insert();
+
+// echo $aluno;
+
+
+//atualizando um usuario
+// $usuario = new Usuario();
+
+// $usuario->loadById(10);
+// $usuario->update("kimkaphwan","4569");
+
+// echo $usuario;
+$usuario = new Usuario();
+
+$usuario->loadById(11);
+$usuario->update("ioriyagami","1478");
+
+echo $usuario;
