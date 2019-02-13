@@ -1,0 +1,16 @@
+{
+    "name": "techined/secao_18-composer",
+    "description": "aula de php7",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BergSabbath",
+            "email": "bergit7@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
