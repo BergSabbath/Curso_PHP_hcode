@@ -21,3 +21,6 @@ imagejpeg($image); //imagejpeg exporta  a imagem para o browser
 //paramentros... 1- imagem, 2- nome do arquivo, 3 - qualidade
 
 imagedestroy($image);
+
+
+?>
